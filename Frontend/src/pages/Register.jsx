@@ -83,6 +83,7 @@ function Register() {
           password,
           fullName
         });
+        console.log(data);
         if (data.statusCode === 200) {
           console.log(data);
           localStorage.setItem(

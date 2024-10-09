@@ -43,7 +43,7 @@ export default function SetAvatar() {
       const { data } = await axios.post(`${setAvatarRoute}/${user._id}`, {
         image: avatars[selectedAvatar],
       });
-
+      console.log("Data sent to backend!!")
       console.log(data);
 
       if (data.statusCode==200) {
