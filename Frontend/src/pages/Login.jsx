@@ -62,6 +62,8 @@ function Login() {
           password,
         });
 
+        console.log(data);
+
         if(data.statusCode === 200){
           console.log("User Logged In Successfully!!")
           localStorage.setItem("chat-app-user",JSON.stringify(data.data.user));
