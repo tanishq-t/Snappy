@@ -55,6 +55,7 @@ export default function SetAvatar() {
         );
         toast.dark("User Avatar Updated Successfully!!",toastOptions)
         console.log(user);
+        navigate("/");
       } 
       else {
         toast.error("Error setting avatar. Please try again.", toastOptions);

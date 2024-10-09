@@ -27,13 +27,6 @@ function Register() {
   });
 
   
-  useEffect(() => {
-    if (localStorage.getItem("chat-app-user")) {
-      navigate("/");
-    }
-  }, []);
-  
-
   const handleChange = (event) => {
     setValues({ ...values, [event.target.name]: event.target.value });
   };
