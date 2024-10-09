@@ -39,10 +39,18 @@ Database:
 Authentication:
 1. JSON Web Tokens (JWT)
 
+   
+
 ![image](https://github.com/user-attachments/assets/67e20aa0-b384-45e2-8133-86fa532d9621)
 
 
 ![image](https://github.com/user-attachments/assets/a6595759-7bc0-4060-a1f8-1106c82d89d3)
 
+
 ![image](https://github.com/user-attachments/assets/b43c823f-ac82-480c-aaf4-1896ff0cf4dc)
+
+
+# Live Demo
+Check out the live version of Snappy at: https://chat-app-snappy.vercel.app/
+
 
